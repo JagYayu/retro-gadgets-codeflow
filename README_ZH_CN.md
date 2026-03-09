@@ -55,7 +55,7 @@ darklua 0.18.0
 
 文件(F) > 打开文件夹 > 这里我选择`D:/scripts`，这样将打开新的窗口并进入项目工作区。
 
-把 luau 定义文件[`RetroGadgets.d.lua`](RetroGadgets.d.lua)和 darklua 的配置文件[`darklua.json`](darklua.json)拷贝到项目中，接下来修改 VSCode 插件配置：
+把 luau 定义文件[`RetroGadgets.d.lua`](template/RetroGadgets.d.lua)和 darklua 的配置文件[`darklua.json`](template/darklua.json)拷贝到项目中，接下来修改 VSCode 插件配置：
 
 管理 <img src="doc/vscode-manage.png" width="23"/> > 设置 > 工作区 > 搜索设置：`luau-lsp.types.definitionFiles` > 添加项目，键：`RetroGadgets` 值：`RetroGadgets.d.lua`
 

@@ -57,7 +57,7 @@ Create a project folder in VSCode. This folder will only manage our Lua scripts.
 
 File(F) > Open Folder > Here I choose `D:/scripts`. This will open a new window and enter the project workspace.
 
-Copy the Luau definition file [`RetroGadgets.d.lua`](RetroGadgets.d.lua) and the darklua configuration file [`darklua.json`](darklua.json) into the project. Next, modify the VSCode plugin settings:
+Copy the Luau definition file [`RetroGadgets.d.lua`](template/RetroGadgets.d.lua) and the darklua configuration file [`darklua.json`](template/darklua.json) into the project. Next, modify the VSCode plugin settings:
 
 Manage <img src="doc/vscode-manage.png" width="23"/> > Settings > Workspace > Search for setting: `luau-lsp.types.definitionFiles` > Add Item, Key: `RetroGadgets` Value: `RetroGadgets.d.lua`
 

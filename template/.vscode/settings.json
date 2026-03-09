@@ -1,0 +1,7 @@
+{
+	"luau-lsp.types.definitionFiles": {
+		"RetroGadgets": "RetroGadgets.d.lua"
+	},
+	"luau-lsp.sourcemap.enabled": false,
+	"luau-lsp.platform.type": "standard"
+}

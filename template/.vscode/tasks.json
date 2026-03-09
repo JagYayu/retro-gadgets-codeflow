@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Bundle Gadget Script",
+			"type": "shell",
+			"command": "darklua",
+			"args": [
+				"process",
+				"--config",
+				"darklua.json",
+				"${input:entryFile}",
+				"${input:outputFile}"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			},
+			"problemMatcher": []
+		}
+	],
+	"inputs": [
+		{
+			"id": "entryFile",
+			"type": "promptString",
+			"description": "Entrypoint script",
+			"default": "init.luau"
+		},
+		{
+			"id": "outputFile",
+			"type": "promptString",
+			"description": "Output script",
+			"default": "CPU0.lua"
+		}
+	]
+}
