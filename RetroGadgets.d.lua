@@ -2,155 +2,155 @@
 --- We assume you already have 10 instance for each type
 declare gdt: {
 	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
-	AudioChip0: AudioChip,
+	AudioChip1: AudioChip,
+	AudioChip2: AudioChip,
+	AudioChip3: AudioChip,
+	AudioChip4: AudioChip,
+	AudioChip5: AudioChip,
+	AudioChip6: AudioChip,
+	AudioChip7: AudioChip,
+	AudioChip8: AudioChip,
+	AudioChip9: AudioChip,
 	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
-	CPU0: CPU,
+	CPU1: CPU,
+	CPU2: CPU,
+	CPU3: CPU,
+	CPU4: CPU,
+	CPU5: CPU,
+	CPU6: CPU,
+	CPU7: CPU,
+	CPU8: CPU,
+	CPU9: CPU,
 	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
-	Decoration0: Decoration,
+	Decoration1: Decoration,
+	Decoration2: Decoration,
+	Decoration3: Decoration,
+	Decoration4: Decoration,
+	Decoration5: Decoration,
+	Decoration6: Decoration,
+	Decoration7: Decoration,
+	Decoration8: Decoration,
+	Decoration9: Decoration,
 	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
-	DPad0: DPad,
+	DPad1: DPad,
+	DPad2: DPad,
+	DPad3: DPad,
+	DPad4: DPad,
+	DPad5: DPad,
+	DPad6: DPad,
+	DPad7: DPad,
+	DPad8: DPad,
+	DPad9: DPad,
 	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
-	FlashMemory0: FlashMemory,
+	FlashMemory1: FlashMemory,
+	FlashMemory2: FlashMemory,
+	FlashMemory3: FlashMemory,
+	FlashMemory4: FlashMemory,
+	FlashMemory5: FlashMemory,
+	FlashMemory6: FlashMemory,
+	FlashMemory7: FlashMemory,
+	FlashMemory8: FlashMemory,
+	FlashMemory9: FlashMemory,
 	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
-	GamepadChip0: GamepadChip,
+	GamepadChip1: GamepadChip,
+	GamepadChip2: GamepadChip,
+	GamepadChip3: GamepadChip,
+	GamepadChip4: GamepadChip,
+	GamepadChip5: GamepadChip,
+	GamepadChip6: GamepadChip,
+	GamepadChip7: GamepadChip,
+	GamepadChip8: GamepadChip,
+	GamepadChip9: GamepadChip,
 	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
-	KeyboardChip0: KeyboardChip,
+	KeyboardChip1: KeyboardChip,
+	KeyboardChip2: KeyboardChip,
+	KeyboardChip3: KeyboardChip,
+	KeyboardChip4: KeyboardChip,
+	KeyboardChip5: KeyboardChip,
+	KeyboardChip6: KeyboardChip,
+	KeyboardChip7: KeyboardChip,
+	KeyboardChip8: KeyboardChip,
+	KeyboardChip9: KeyboardChip,
 	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
-	Keypad0: Keypad,
+	Keypad1: Keypad,
+	Keypad2: Keypad,
+	Keypad3: Keypad,
+	Keypad4: Keypad,
+	Keypad5: Keypad,
+	Keypad6: Keypad,
+	Keypad7: Keypad,
+	Keypad8: Keypad,
+	Keypad9: Keypad,
 	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
-	Knob0: Knob,
+	Knob1: Knob,
+	Knob2: Knob,
+	Knob3: Knob,
+	Knob4: Knob,
+	Knob5: Knob,
+	Knob6: Knob,
+	Knob7: Knob,
+	Knob8: Knob,
+	Knob9: Knob,
 	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
-	Lcd0: LcdDisplay,
+	Lcd1: LcdDisplay,
+	Lcd2: LcdDisplay,
+	Lcd3: LcdDisplay,
+	Lcd4: LcdDisplay,
+	Lcd5: LcdDisplay,
+	Lcd6: LcdDisplay,
+	Lcd7: LcdDisplay,
+	Lcd8: LcdDisplay,
+	Lcd9: LcdDisplay,
 	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
-	Led0: Led,
+	Led1: Led,
+	Led2: Led,
+	Led3: Led,
+	Led4: Led,
+	Led5: Led,
+	Led6: Led,
+	Led7: Led,
+	Led8: Led,
+	Led9: Led,
 	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
-	LedButton0: LedButton,
+	LedButton1: LedButton,
+	LedButton2: LedButton,
+	LedButton3: LedButton,
+	LedButton4: LedButton,
+	LedButton5: LedButton,
+	LedButton6: LedButton,
+	LedButton7: LedButton,
+	LedButton8: LedButton,
+	LedButton9: LedButton,
 	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
-	LedMatrix0: LedMatrix,
+	LedMatrix1: LedMatrix,
+	LedMatrix2: LedMatrix,
+	LedMatrix3: LedMatrix,
+	LedMatrix4: LedMatrix,
+	LedMatrix5: LedMatrix,
+	LedMatrix6: LedMatrix,
+	LedMatrix7: LedMatrix,
+	LedMatrix8: LedMatrix,
+	LedMatrix9: LedMatrix,
 	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
-	LedStrip0: LedStrip,
+	LedStrip1: LedStrip,
+	LedStrip2: LedStrip,
+	LedStrip3: LedStrip,
+	LedStrip4: LedStrip,
+	LedStrip5: LedStrip,
+	LedStrip6: LedStrip,
+	LedStrip7: LedStrip,
+	LedStrip8: LedStrip,
+	LedStrip9: LedStrip,
 	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
-	MagneticConnector0: MagneticConnector,
+	MagneticConnector1: MagneticConnector,
+	MagneticConnector2: MagneticConnector,
+	MagneticConnector3: MagneticConnector,
+	MagneticConnector4: MagneticConnector,
+	MagneticConnector5: MagneticConnector,
+	MagneticConnector6: MagneticConnector,
+	MagneticConnector7: MagneticConnector,
+	MagneticConnector8: MagneticConnector,
+	MagneticConnector9: MagneticConnector,
 	Motherboards: { Motherboard },
 	MultitoolConnector: MultitoolConnector,
 	PowerButton: PowerButton,
@@ -486,7 +486,7 @@ declare class Webcam extends Module
 	AccessDenied: boolean -- read-only
 	IsActive: boolean -- read-only
 	IsAvailable: boolean -- read-only
-	GetRenderBuffer: () -> RenderBuffer
+	GetRenderBuffer: (self: Webcam) -> RenderBuffer
 end
 
 export type WebcamIsActiveEvent = { 
@@ -561,8 +561,8 @@ end
 declare class SegmentDisplay extends Module
 	States: { { boolean } }
 	Colors: { { color } }
-	ShowDigit: (groupIndex: number, digit: number) -> ()
-	SetDigitColor: (groupIndex: number, color: color) -> ()
+	ShowDigit: (self: SegmentDisplay, groupIndex: number, digit: number) -> ()
+	SetDigitColor: (self: SegmentDisplay, groupIndex: number, color: color) -> ()
 end
 
 --#endregion
@@ -580,23 +580,23 @@ end
 declare class AudioChip extends Module
 	ChannelsCount: number -- read-only
 	Volume: number -- read-only
-	GetSpectrumData: (channel: number, samplesCount: number) -> { number }
-	GetDspTime: number
-	Play: (audioSample: AudioSample, channel: number) -> ()
-	PlayScheduled: (audioSample: AudioSample, channel: number, dspTime: number) -> ()
-	PlayLoop: (audioSample: AudioSample, channel: number ) -> ()
-	PlayLoopScheduled: (audioSample: AudioSample, channel: number, dspTime: number) -> ()
-	Stop: (channel: number) -> ()
-	Pause: (channel: number) -> ()
-	UnPause: (channel: number) -> ()
-	IsPlaying: (channel: number) -> boolean
-	IsPaused: (channel: number) -> boolean
-	GetPlayTime: (channel: number) -> number
-	SeekPlayTime: (time: number, channel: number) -> ()
-	SetChannelVolume: (volume: number, channel: number) -> ()
-	GetChannelVolume: (channel: number) -> number 
-	SetChannelPitch: (pitch: number, channel: number) -> ()
-	GetChannelPitch: (channel: number) -> number
+	GetSpectrumData: (self: AudioChip, channel: number, samplesCount: number) -> { number }
+	GetDspTime: (self: AudioChip) -> number
+	Play: (self: AudioChip, audioSample: AudioSample, channel: number) -> ()
+	PlayScheduled: (self: AudioChip, audioSample: AudioSample, channel: number, dspTime: number) -> ()
+	PlayLoop: (self: AudioChip, audioSample: AudioSample, channel: number ) -> ()
+	PlayLoopScheduled: (self: AudioChip, audioSample: AudioSample, channel: number, dspTime: number) -> ()
+	Stop: (self: AudioChip, channel: number) -> ()
+	Pause: (self: AudioChip, channel: number) -> ()
+	UnPause: (self: AudioChip, channel: number) -> ()
+	IsPlaying: (self: AudioChip, channel: number) -> boolean
+	IsPaused: (self: AudioChip, channel: number) -> boolean
+	GetPlayTime: (self: AudioChip, channel: number) -> number
+	SeekPlayTime: (self: AudioChip, time: number, channel: number) -> ()
+	SetChannelVolume: (self: AudioChip, volume: number, channel: number) -> ()
+	GetChannelVolume: (self: AudioChip, channel: number) -> number 
+	SetChannelPitch: (self: AudioChip, pitch: number, channel: number) -> ()
+	GetChannelPitch: (self: AudioChip, channel: number) -> number
 end
 
 export type AudioChipChannelEvent = {
@@ -629,8 +629,8 @@ end
 declare class FlashMemory extends Module
 	Size: number -- read-only
 	Usage: number -- read-only
-	Save: (table: table) -> boolean
-	Load: () -> table
+	Save: (self: FlashMemory, table: table) -> boolean
+	Load: (self: FlashMemory) -> table
 end
 
 --#endregion
@@ -640,9 +640,9 @@ end
 declare class GamepadChip extends Module
 	GamepadIndex: number
 	IsActive: boolean -- read-only
-	GetButton: (name: InputName) -> InputSource
-	GetAxis: (name: InputName) -> InputSource
-	GetButtonAxis: (negativeName: InputName, positiveName: InputName) -> InputSource
+	GetButton: (self: GamepadChip, name: InputName) -> InputSource
+	GetAxis: (self: GamepadChip, name: InputName) -> InputSource
+	GetButtonAxis: (self: GamepadChip, negativeName: InputName, positiveName: InputName) -> InputSource
 end
 
 export type GamepadChipIsActiveEvent = {
@@ -681,8 +681,8 @@ declare GamepadChip: {
 --#region https://docs.retrogadgets.game/modules/KeyboardChip.html
 
 declare class KeyboardChip extends Module
-	GetButton: (name: InputName) -> InputSource
-	GetButtonAxis: (negativeName: InputName, positiveName: InputName) -> InputSource
+	GetButton: (self: KeyboardChip, name: InputName) -> InputSource
+	GetButtonAxis: (self: KeyboardChip, negativeName: InputName, positiveName: InputName) -> InputSource
 end
 
 export type KeyboardChipEvent = {
@@ -861,7 +861,7 @@ declare class RealityChip extends Module
 	Ram: RealityChip_Ram -- read-only
 	Network: RealityChip_Network -- read-only
 	LoadedAssets: Asset -- read-only
-	GetDateTime: () -> {
+	GetDateTime: (self: RealityChip) -> {
 		year: any?,
 		month: any?,
 		day: any?,
@@ -883,11 +883,11 @@ declare class RealityChip extends Module
 		sec: any?,
 		isdst: any?,
 	}
-	LoadAudioSample: (filename: string) -> AudioSample
-	LoadSpriteSheet: (filename: string, spritesWidth: number, spritesHeight: number) -> SpriteSheet
-	UnloadAsset: (filename: string) -> ()
-	ListDirectory: (directory: string) -> { string }
-	GetFileMetadata: (filename: string) -> table
+	LoadAudioSample: (self: RealityChip, filename: string) -> AudioSample
+	LoadSpriteSheet: (self: RealityChip, filename: string, spritesWidth: number, spritesHeight: number) -> SpriteSheet
+	UnloadAsset: (self: RealityChip, filename: string) -> ()
+	ListDirectory: (self: RealityChip, directory: string) -> { string }
+	GetFileMetadata: (self: RealityChip, filename: string) -> table
 end
 
 type RealityChip_Cpu = {
@@ -936,30 +936,30 @@ declare class VideoChip extends Module
 	TouchDown: boolean -- read-only
 	TouchUp: boolean -- read-only
 	TouchPosition: vec2 -- read-only
-	RenderOnScreen: () -> ()
-	RenderOnBuffer: (index: number) -> ()
-	SetRenderBufferSize: (index: number, width: number, height: number) -> ()
-	Clear: (color: color) -> ()
-	SetPixel: (position: vec2, color: color) -> ()
-	DrawPointGrid: (gridOffset: vec2, dotsDistance: number, color: color) -> ()
-	DrawLine: (start: vec2, _end: vec2, color: color) -> ()
-	DrawCircle: (position: vec2, radius: number, color: color) -> ()
-	FillCircle: (position: vec2, radius: number, color: color) -> ()
-	DrawRect: (position1: vec2, position2: vec2, color: color) -> ()
-	FillRect: (position1: vec2, position2: vec2, color: color) -> ()
-	DrawTriangle: (position1: vec2, position2: vec2, position3: vec2, color: color) -> ()
-	FillTriangle: (position1: vec2, position2: vec2, position3: vec2, color: color) -> ()
-	DrawSprite: (position: vec2, spriteSheet: SpriteSheet, spriteX: number, spriteY: number, tintColor: color, backgroundColor: color) -> ()
-	DrawCustomSprite: (position: vec2, spriteSheet: SpriteSheet, spriteOffset: vec2, spriteSize: vec2, tintColor: color, backgroundColor: color) -> ()
-	DrawText: (position: vec2, fontSprite: SpriteSheet, text: string, textColor: color, backgroundColor: color) -> ()
-	RasterSprite: (position1: vec2, position2: vec2, position3: vec2, position4: vec2, spriteSheet: SpriteSheet, spriteX: number, spriteY: number, tintColor: color, backgroundColor: color) -> ()
-	RasterCustomSprite: (position1: vec2, position2: vec2, position3: vec2, position4: vec2, spriteSheet: SpriteSheet, spriteOffset: vec2, spriteSize: vec2, tintColor: color, backgroundColor: color) -> ()
-	DrawRenderBuffer: (position: vec2, renderBuffer: RenderBuffer, width: number, height: number) -> ()
-	DrawCustomRenderBuffer: (position: vec2, renderBuffer: RenderBuffer, width: number, height: number, bufferAreaOffset: vec2, bufferAreaSize: vec2) -> ()
-	RasterRenderBuffer: (position1: vec2, position2: vec2, position3: vec2, position4: vec2, renderBuffer: RenderBuffer) -> ()
-	RasterCustomRenderBuffer: (position1: vec2, position2: vec2, position3: vec2, position4: vec2, renderBuffer: RenderBuffer, bufferAreaOffset: vec2, bufferAreaSize: vec2) -> ()
-	SetPixelData: (pixelData: PixelData) -> ()
-	BlitPixelData: (position: vec2, pixelData: PixelData) -> ()
+	RenderOnScreen: (self: VideoChip) -> ()
+	RenderOnBuffer: (self: VideoChip, index: number) -> ()
+	SetRenderBufferSize: (self: VideoChip, index: number, width: number, height: number) -> ()
+	Clear: (self: VideoChip, color: color) -> ()
+	SetPixel: (self: VideoChip, position: vec2, color: color) -> ()
+	DrawPointGrid: (self: VideoChip, gridOffset: vec2, dotsDistance: number, color: color) -> ()
+	DrawLine: (self: VideoChip, start: vec2, _end: vec2, color: color) -> ()
+	DrawCircle: (self: VideoChip, position: vec2, radius: number, color: color) -> ()
+	FillCircle: (self: VideoChip, position: vec2, radius: number, color: color) -> ()
+	DrawRect: (self: VideoChip, position1: vec2, position2: vec2, color: color) -> ()
+	FillRect: (self: VideoChip, position1: vec2, position2: vec2, color: color) -> ()
+	DrawTriangle: (self: VideoChip, position1: vec2, position2: vec2, position3: vec2, color: color) -> ()
+	FillTriangle: (self: VideoChip, position1: vec2, position2: vec2, position3: vec2, color: color) -> ()
+	DrawSprite: (self: VideoChip, position: vec2, spriteSheet: SpriteSheet, spriteX: number, spriteY: number, tintColor: color, backgroundColor: color) -> ()
+	DrawCustomSprite: (self: VideoChip, position: vec2, spriteSheet: SpriteSheet, spriteOffset: vec2, spriteSize: vec2, tintColor: color, backgroundColor: color) -> ()
+	DrawText: (self: VideoChip, position: vec2, fontSprite: SpriteSheet, text: string, textColor: color, backgroundColor: color) -> ()
+	RasterSprite: (self: VideoChip, position1: vec2, position2: vec2, position3: vec2, position4: vec2, spriteSheet: SpriteSheet, spriteX: number, spriteY: number, tintColor: color, backgroundColor: color) -> ()
+	RasterCustomSprite: (self: VideoChip, position1: vec2, position2: vec2, position3: vec2, position4: vec2, spriteSheet: SpriteSheet, spriteOffset: vec2, spriteSize: vec2, tintColor: color, backgroundColor: color) -> ()
+	DrawRenderBuffer: (self: VideoChip, position: vec2, renderBuffer: RenderBuffer, width: number, height: number) -> ()
+	DrawCustomRenderBuffer: (self: VideoChip, position: vec2, renderBuffer: RenderBuffer, width: number, height: number, bufferAreaOffset: vec2, bufferAreaSize: vec2) -> ()
+	RasterRenderBuffer: (self: VideoChip, position1: vec2, position2: vec2, position3: vec2, position4: vec2, renderBuffer: RenderBuffer) -> ()
+	RasterCustomRenderBuffer: (self: VideoChip, position1: vec2, position2: vec2, position3: vec2, position4: vec2, renderBuffer: RenderBuffer, bufferAreaOffset: vec2, bufferAreaSize: vec2) -> ()
+	SetPixelData: (self: VideoChip, pixelData: PixelData) -> ()
+	BlitPixelData: (self: VideoChip, position: vec2, pixelData: PixelData) -> ()
 end
 
 export type VideoChipTouchEvent = {
@@ -983,17 +983,17 @@ declare VideoChipMode: {
 declare class Wifi extends Module
 	AccessDenied: boolean -- read-only
 	AudioStreams: { AudioSample } -- read-only
-	WebGet: (url: string) -> number
-	WebPutData: (url: string, data: string) -> number
-	WebPostData: (url: string, data: string) -> number
-	WebPostForm: (url: string, form: table) -> number
-	WebCustomRequest: (url: string, method: string, customHeaderFields: table, contentType: string, contentData: string) -> number
-	WebGetAudioStream: (url: string) -> number
-	WebAbort: (handle: number) -> boolean
-	GetWebUploadProgress: (handle: number) -> number
-	GetWebDownloadProgress: (handle: number) -> number
-	ClearCookieCache: () -> ()
-	ClearUrlCookieCache: (url: string) -> ()
+	WebGet: (self: Wifi, url: string) -> number
+	WebPutData: (self: Wifi, url: string, data: string) -> number
+	WebPostData: (self: Wifi, url: string, data: string) -> number
+	WebPostForm: (self: Wifi, url: string, form: table) -> number
+	WebCustomRequest: (self: Wifi, url: string, method: string, customHeaderFields: table, contentType: string, contentData: string) -> number
+	WebGetAudioStream: (self: Wifi, url: string) -> number
+	WebAbort: (self: Wifi, handle: number) -> boolean
+	GetWebUploadProgress: (self: Wifi, handle: number) -> number
+	GetWebDownloadProgress: (self: Wifi, handle: number) -> number
+	ClearCookieCache: (self: Wifi) -> ()
+	ClearUrlCookieCache: (self: Wifi, url: string) -> ()
 end
 
 export type WifiWebResponseEvent = { 
@@ -1023,18 +1023,18 @@ declare class Serial extends Module
 	DataBits: number
 	Parity: SerialParity
 	StopBits: SerialStopBits
-	WriteInt8: (value: number) -> ()
-	WriteUInt8: (value: number) -> ()
-	WriteInt16: (value: number) -> ()
-	WriteUInt16: (value: number) -> ()
-	WriteInt32: (value: number) -> ()
-	WriteUInt32: (value: number) -> ()
-	WriteFloat32: (value: number) -> ()
-	WriteFloat64: (value: number) -> ()
-	Write: (data: string) -> ()
-	Print: (text: string) -> ()
-	Println: (text: string) -> ()
-	GetAvailablePorts: () -> { number }
+	WriteInt8: (self: Serial, value: number) -> ()
+	WriteUInt8: (self: Serial, value: number) -> ()
+	WriteInt16: (self: Serial, value: number) -> ()
+	WriteUInt16: (self: Serial, value: number) -> ()
+	WriteInt32: (self: Serial, value: number) -> ()
+	WriteUInt32: (self: Serial, value: number) -> ()
+	WriteFloat32: (self: Serial, value: number) -> ()
+	WriteFloat64: (self: Serial, value: number) -> ()
+	Write: (self: Serial, data: string) -> ()
+	Print: (self: Serial, text: string) -> ()
+	Println: (self: Serial, text: string) -> ()
+	GetAvailablePorts: (self: Serial) -> { number }
 end
 
 export type SerialIsActiveEvent = {
@@ -1081,9 +1081,9 @@ declare class SpriteSheet extends Asset
 	Name: string -- read-only
 	Type: string -- read-only
 	Palette: Palette -- read-only
-	IsValid: () -> boolean
-	GetPixelData: () -> PixelData
-	GetSpritePixelData: (spriteX: number, spriteY: number) -> PixelData
+	IsValid: (self: SpriteSheet) -> boolean
+	GetPixelData: (self: SpriteSheet) -> PixelData
+	GetSpritePixelData: (self: SpriteSheet, spriteX: number, spriteY: number) -> PixelData
 end
 
 --#endregion
@@ -1141,7 +1141,7 @@ declare class AudioSample extends Asset
 		read SortArtist: any?,
 		read Description: any?,
 	}
-	IsValid: () -> boolean
+	IsValid: (self: AudioSample) -> boolean
 end
 
 --#endregion
@@ -1153,8 +1153,8 @@ declare class RenderBuffer extends Asset
 	Type: string -- read-only
 	Width: number -- read-only
 	Height: number -- read-only
-	IsValid: () -> boolean
-	GetPixelData: () -> PixelData
+	IsValid: (self: RenderBuffer) -> boolean
+	GetPixelData: (self: RenderBuffer) -> PixelData
 end
 
 --#endregion

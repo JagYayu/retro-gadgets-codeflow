@@ -17,6 +17,8 @@ Here, I have summarized my personal coding workflow that allows you to write cod
 * Multiple files / folders support by IDE (no more single 1000-line file)
 * darklua bundles everything into one CPU0.lua - just copy & paste into the game
 
+<img src="doc/showcase.gif">
+
 ## Preparation
 
 > [!Note]
@@ -64,7 +66,10 @@ After modification, a prompt "Reload language server" will appear in the bottom 
 
 The system will create a `.vscode` directory for you. Then, copy the configuration file [`tasks.json`](tasks.json) to your project's `.vscode` folder.
 
-Additionally: It's best to turn off the configuration option `luau-lsp.sourcemap.enabled`, otherwise luau-lsp will report errors related to not finding the sourcemap.
+Additionally
+
+* It's best to turn off the configuration option `luau-lsp.sourcemap.enabled`, otherwise luau-lsp will report errors related to not finding the sourcemap.
+* Change the configuration option `luau-lsp.platform.type` to `standard` since we are not on the Roblox platform.
 
 ## Start Creating
 

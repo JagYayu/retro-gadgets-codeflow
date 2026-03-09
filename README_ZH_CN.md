@@ -14,6 +14,8 @@ Language: [English](README.md) | **简体中文**
 * IDE支持多个文件/文件夹（不再局限于单个1000行的文件）
 * darklua 将所有内容打包成一个 CPU0.lua 文件 - 只需复制粘贴到游戏中即可
 
+<img src="doc/showcase.gif">
+
 ## 准备工作
 
 > [!Note]
@@ -61,7 +63,10 @@ darklua 0.18.0
 
 系统会为你创建一个`.vscode`目录，此时再将配置文件[`tasks.json`](tasks.json)拷贝到你项目的`.vscode`文件夹中。
 
-补充：最好将配置选项`luau-lsp.sourcemap.enabled`关闭，不然luau-lsp会报找不到sourcemap相关的错误。
+补充：
+
+* 最好将配置选项`luau-lsp.sourcemap.enabled`关闭，不然luau-lsp会报找不到sourcemap相关的错误。
+* 配置选项`luau-lsp.platform.type`改成`standard`，因为我们并不在 roblox 平台。
 
 ## 开始创作
 
