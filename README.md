@@ -4,7 +4,6 @@ Language: **English** | [简体中文](README_ZH_CN.md)
 
 # RetroGadgets Coding Workflow
 
-darklua bundles everything into one CPU0.lua - just copy & paste into the game
 Do you always feel that writing code in RetroGadgets is very restrictive?
 When you need to implement complex features, you often have to split the code into multiple files to manage it, yet you are disappointed with RetroGadgets' built-in resource manager (no folders, no sorting).
 Or perhaps you prefer using a modern IDE to write your code.
