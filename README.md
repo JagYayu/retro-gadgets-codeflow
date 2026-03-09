@@ -115,13 +115,14 @@ The example directory structure is as follows:
 📁 D:/scripts
 ├── 📁 .vscode
 │   └── 📝 settings.json
+├── 📁 folder
+│   └── 📄 Utils.luau
 ├── 📄 darklua.json
 ├── 📄 Food.luau
 ├── 📄 Game.luau
 ├── 📄 Map.luau
 ├── 📄 RetroGadgets.d.lua
-├── 📄 Snake.luau
-└── 📄 Utils.luau
+└── 📄 Snake.luau
 ```
 
 After writing the code, press the default shortcut Ctrl+Shift+B or manually execute `>tasks: Run Build Task`. The task panel will appear.

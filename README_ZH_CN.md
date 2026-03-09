@@ -112,13 +112,14 @@ darklua 0.18.0
 📁 D:/scripts
 ├── 📁 .vscode
 │   └── 📝 settings.json
+├── 📁 folder
+│   └── 📄 Utils.luau
 ├── 📄 darklua.json
 ├── 📄 Food.luau
 ├── 📄 Game.luau
 ├── 📄 Map.luau
 ├── 📄 RetroGadgets.d.lua
-├── 📄 Snake.luau
-└── 📄 Utils.luau
+└── 📄 Snake.luau
 ```
 
 <!-- 写完代码后，打开 cmd 并重定向到项目目录`cd /d D:/scripts`，再输入命令`darklua process --config darklua.json "Game.luau" "CPU0.lua"`，其中`Game.luau`应该替换成你的入口脚本文件。 -->
