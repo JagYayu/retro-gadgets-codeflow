@@ -3,18 +3,26 @@ Language: **English** | [简体中文](README_ZH_CN.md)
 <small>translated from [SimplifiedChinese](README_ZH_CN.md) by Deepseek</small>
 
 # RetroGadgets Coding Workflow
+
+darklua bundles everything into one CPU0.lua - just copy & paste into the game
 Do you always feel that writing code in RetroGadgets is very restrictive?
 When you need to implement complex features, you often have to split the code into multiple files to manage it, yet you are disappointed with RetroGadgets' built-in resource manager (no folders, no sorting).
 Or perhaps you prefer using a modern IDE to write your code.
 
 Here, I have summarized my personal coding workflow that allows you to write code efficiently in VSCode and easily synchronize and import it into RetroGadgets.
 
+## Overview
+
+* VSCode + Luau-LSP for proper syntax highlighting and autocomplete
+* Multiple files / folders support by IDE (no more single 1000-line file)
+* darklua bundles everything into one CPU0.lua - just copy & paste into the game
+
 ## Preparation
 
 > [!Note]
 > I assume everyone is using the Windows operating system.
 
-### 1. VSCode
+### VSCode
 
 First, go to the official website to install [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
 <img src="doc/vscode.png" width="16"/>,
@@ -25,7 +33,7 @@ and install this plugin: [Luau Language Server (by JohnnyMorganz)](https://githu
 
 <img src="doc/plugin-luau.png"/>
 
-### 2. darklua
+### darklua
 
 [darklua](https://darklua.com/) is a tool for preprocessing Lua code, and we will use its code bundling feature.
 
@@ -42,7 +50,7 @@ C:\Users\**>darklua --version
 darklua 0.18.0
 ```
 
-### 3. Creating the Project
+### Creating the Project
 
 Create a project folder in VSCode. This folder will only manage our Lua scripts.
 

@@ -8,12 +8,18 @@ Language: [English](README.md) | **简体中文**
 
 那么这里我总结了一套自己的一套编码流程，能够让你在 VSCode 中高效地编写代码，并轻松将代码同步地导入到 RetroGadgets 中。
 
+## 概述
+
+* 使用 VSCode + Luau-LSP 实现正确的语法高亮和自动补全
+* IDE支持多个文件/文件夹（不再局限于单个1000行的文件）
+* darklua 将所有内容打包成一个 CPU0.lua 文件 - 只需复制粘贴到游戏中即可
+
 ## 准备工作
 
 > [!Note]
 > 我假定大家使用的操作系统都是 Windows
 
-### 1. VSCode
+### VSCode
 
 首先，去官网安装 [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
 <img src="doc/vscode.png" width="16"/>，
@@ -24,7 +30,7 @@ Language: [English](README.md) | **简体中文**
 
 <img src="doc/plugin-luau.png"/>
 
-### 2. darklua
+### darklua
 
 [darklua](https://darklua.com/) 是一个用于预处理 lua 代码的软件，而我们将会用到它的捆绑代码(bundle code)功能。
 
@@ -41,7 +47,7 @@ C:\Users\**>darklua --version
 darklua 0.18.0
 ```
 
-### 3. 创建项目
+### 创建项目
 
 去 VSCode 里创建一个项目文件夹，这个文件夹只管理我们的 Lua 脚本。
 
