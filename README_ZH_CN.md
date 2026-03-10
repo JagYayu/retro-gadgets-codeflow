@@ -111,10 +111,11 @@ darklua 0.18.0
 ```
 📁 D:/scripts
 ├── 📁 .vscode
-│   └── 📝 settings.json
+│   ├── 📝 settings.json
+│   └── 📝 tasks.json
 ├── 📁 folder
 │   └── 📄 Utils.luau
-├── 📄 darklua.json
+├── 📝 darklua.json
 ├── 📄 Food.luau
 ├── 📄 Game.luau
 ├── 📄 Map.luau

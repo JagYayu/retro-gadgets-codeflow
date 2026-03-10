@@ -113,10 +113,11 @@ The example directory structure is as follows:
 ```
 📁 D:/scripts
 ├── 📁 .vscode
-│   └── 📝 settings.json
+│   ├── 📝 settings.json
+│   └── 📝 tasks.json
 ├── 📁 folder
 │   └── 📄 Utils.luau
-├── 📄 darklua.json
+├── 📝 darklua.json
 ├── 📄 Food.luau
 ├── 📄 Game.luau
 ├── 📄 Map.luau

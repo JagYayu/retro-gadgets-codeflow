@@ -2,7 +2,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Bundle Gadget Script",
+			"label": "BundleScripts",
 			"type": "shell",
 			"command": "darklua",
 			"args": [
@@ -11,6 +11,29 @@
 				"darklua.json",
 				"${input:entryFile}",
 				"${input:outputFile}"
+			],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "CopyToClipboard",
+			"type": "shell",
+			"command": "cat ${input:outputFile} | clip",
+			"presentation": {
+				"reveal": "silent",
+				"panel": "shared"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "BundleScripts&CopyToClipboard",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"BundleScripts",
+				"CopyToClipboard"
 			],
 			"group": {
 				"kind": "build",
