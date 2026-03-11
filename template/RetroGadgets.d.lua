@@ -336,8 +336,8 @@ type InputSource = unknown
 export type PixelData = {
 	read Width: number,
 	read Height: number,
-	read GetPixel: (x: number, y: number) -> color,
-	read SetPixel: (x: number, y: number, color: color) -> (),
+	read GetPixel: (self: PixelData, x: number, y: number) -> color,
+	read SetPixel: (self: PixelData, x: number, y: number, color: color) -> (),
 }
 
 declare PixelData: {
@@ -909,11 +909,22 @@ type RealityChip_Network = {
 
 --#region https://docs.retrogadgets.game/modules/ROM.html
 
+type ROM_Table = {
+	read Assets: { [string]: Asset },
+	read SpriteSheets: { [string]: SpriteSheet },
+	read Codes: { [string]: Code },
+	read AudioSamples: { [string]: AudioSample },
+}
+
+type ROM_System = ROM_Table
+
+type ROM_User = ROM_Table
+
 declare class ROM extends Module
-	Assets: { Asset } -- read-only
-	SpriteSheets: { SpriteSheet } -- read-only
-	Codes: { Code } -- read-only
-	AudioSamples: { AudioSample } -- read-only
+	Motherboard: Motherboard -- read-only
+	System: ROM_System -- read-only
+	User: ROM_User -- read-only
+	Type: "ROM" -- read-only
 end
 
 --#endregion
